@@ -1,0 +1,24 @@
+name: C++ Qt CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install Qt
+      uses: jurplel/install-qt-action@v4
+      with:
+        version: '6.6.1'
+        modules: 'qtbase,qtmultimedia'
+
+    - name: Configure CMake
+      run: cmake -S . -B build -G Ninja
+
+    - name: Build
+      run: cmake --build build
