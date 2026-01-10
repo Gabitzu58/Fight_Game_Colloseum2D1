@@ -1,4 +1,4 @@
-name: C++ Qt CI
+name: C++ Qt CI (Ubuntu)
 
 on:
   push:
@@ -11,13 +11,15 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Install Qt
-      uses: jurplel/install-qt-action@v4
-      with:
-        version: '6.6.1'
-        modules: qtbase qtmultimedia
-        arch: 'gcc_64'
-        cache: true
+    - name: Install Qt and dependencies
+      run: |
+        sudo apt update
+        sudo apt install -y \
+          qt6-base-dev \
+          qt6-multimedia-dev \
+          cmake \
+          ninja-build
+
     - name: Configure CMake
       run: cmake -S . -B build -G Ninja
 
