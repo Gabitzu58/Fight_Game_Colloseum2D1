@@ -1,4 +1,4 @@
-#include "Arena.h"
+#include "arena.h"
 
 #include <QPainter>
 #include <QKeyEvent>
@@ -645,3 +645,4 @@ void Arena::resetRound()
     roundOver = false;
     update();
 }
+
