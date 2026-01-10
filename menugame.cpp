@@ -1,4 +1,4 @@
-#include "MenuGame.h"
+#include "menugame.h"
 #include <QApplication>
 #include <QPixmap>
 
@@ -67,4 +67,5 @@ void MenuGame::createButtons()
         emit exitClicked();
     });
 }
+
 
