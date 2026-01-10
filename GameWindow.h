@@ -6,7 +6,7 @@
 #include "menugame.h"
 #include "LobbyOverlay.h"
 #include "SettingsOverlay.h"
-#include "Arena.h"
+#include "arena.h"
 
 class GameWindow : public QWidget
 {
@@ -26,4 +26,5 @@ private:
     SettingsOverlay* settings = nullptr;
     Arena* arena = nullptr;
 };
+
 
