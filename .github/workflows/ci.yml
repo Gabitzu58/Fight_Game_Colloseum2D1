@@ -15,8 +15,7 @@ jobs:
       uses: jurplel/install-qt-action@v4
       with:
         version: '6.6.1'
-        modules: 'qtbase,qtmultimedia'
-
+        modules: qtbase qtmultimedia
     - name: Configure CMake
       run: cmake -S . -B build -G Ninja
 
