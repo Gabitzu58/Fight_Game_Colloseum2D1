@@ -16,6 +16,8 @@ jobs:
       with:
         version: '6.6.1'
         modules: qtbase qtmultimedia
+        arch: 'gcc_64'
+        cache: true
     - name: Configure CMake
       run: cmake -S . -B build -G Ninja
 
