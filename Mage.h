@@ -1,5 +1,5 @@
 #pragma once
-#include "Gladiator.h"
+#include "gladiator.h"
 
 class Mage : public Gladiator
 {
@@ -8,3 +8,4 @@ public:
 
     void attack() override;
 };
+
