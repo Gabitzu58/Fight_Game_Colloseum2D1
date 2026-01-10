@@ -9,7 +9,7 @@
 #include <QMap>
 #include <Projectile.h>
 #include <QWidget>
-#include "Stat.h"
+#include "stat.h"
 #include "Character.h"
 
 class Gladiator: public QWidget , public Character
@@ -193,3 +193,4 @@ private:
     GladiatorStats stats;
 
 };
+
