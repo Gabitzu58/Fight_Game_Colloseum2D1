@@ -1,0 +1,115 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/Eroul1.png</file>
+        <file>images/Eroul2.png</file>
+        <file>images/Eroul3.png</file>
+        <file>images/Eroul4.png</file>
+        <file>images/Eroul5.png</file>
+        <file>images/menuColloseum.png</file>
+        <file>images/Arena.png</file>
+        <file>images/proiectil0.png</file>
+        <file>images/proiectil1.png</file>
+        <!-- IDLE -->
+        <file>images/Eroul1/idle/idle0.png</file>
+        <file>images/Eroul1/idle/idle1.png</file>
+        <file>images/Eroul1/idle/idle2.png</file>
+        <file>images/Eroul1/idle/idle3.png</file>
+
+        <!-- RUN -->
+        <file>images/Eroul1/run/run0.png</file>
+        <file>images/Eroul1/run/run1.png</file>
+        <file>images/Eroul1/run/run2.png</file>
+        <file>images/Eroul1/run/run3.png</file>
+
+        <!-- ATTACK -->
+        <file>images/Eroul1/attack/attack0.png</file>
+        <file>images/Eroul1/attack/attack1.png</file>
+        <file>images/Eroul1/attack/attack2.png</file>
+        <file>images/Eroul1/attack/attack3.png</file>
+
+        <!-- BLOCK -->
+        <file>images/Eroul1/block/block0.png</file>
+        <file>images/Eroul1/block/block1.png</file>
+
+        <file>images/Eroul2/idle/idle0.png</file>
+        <file>images/Eroul2/idle/idle1.png</file>
+
+        <file>images/Eroul2/run/run0.png</file>
+        <file>images/Eroul2/run/run1.png</file>
+        <file>images/Eroul2/run/run2.png</file>
+
+        <file>images/Eroul2/block/block0.png</file>
+
+        <file>images/Eroul2/attack/attack0.png</file>
+        <file>images/Eroul2/attack/attack1.png</file>
+        <file>images/Eroul2/attack/attack2.png</file>
+        <file>images/Eroul2/attack/attack3.png</file>
+
+        <file>images/Eroul5/idle/idle0.png</file>
+        <file>images/Eroul5/idle/idle1.png</file>
+        <file>images/Eroul5/idle/idle2.png</file>
+        <file>images/Eroul5/idle/idle3.png</file>
+
+        <!-- RUN -->
+        <file>images/Eroul5/run/run0.png</file>
+        <file>images/Eroul5/run/run1.png</file>
+        <file>images/Eroul5/run/run2.png</file>
+        <file>images/Eroul5/run/run3.png</file>
+
+        <!-- ATTACK -->
+        <file>images/Eroul5/attack/attack0.png</file>
+        <file>images/Eroul5/attack/attack1.png</file>
+        <file>images/Eroul5/attack/attack2.png</file>
+        <file>images/Eroul5/attack/attack3.png</file>
+
+        <!-- BLOCK -->
+        <file>images/Eroul5/block/block0.png</file>
+        <file>images/Eroul5/block/block1.png</file>
+
+        <file>sounds/background.mp3</file>
+
+        <file>images/Eroul3/idle/idle0.png</file>
+        <file>images/Eroul3/idle/idle1.png</file>
+        <file>images/Eroul3/idle/idle2.png</file>
+        <file>images/Eroul3/idle/idle3.png</file>
+
+        <!-- RUN -->
+        <file>images/Eroul3/run/run0.png</file>
+        <file>images/Eroul3/run/run1.png</file>
+        <file>images/Eroul3/run/run2.png</file>
+        <file>images/Eroul3/run/run3.png</file>
+
+        <!-- ATTACK -->
+        <file>images/Eroul3/attack/attack0.png</file>
+        <file>images/Eroul3/attack/attack1.png</file>
+        <file>images/Eroul3/attack/attack2.png</file>
+        <file>images/Eroul3/attack/attack3.png</file>
+
+        <!-- BLOCK -->
+        <file>images/Eroul3/block/block0.png</file>
+        <file>images/Eroul3/block/block1.png</file>
+
+        <file>images/Eroul4/idle/idle0.png</file>
+        <file>images/Eroul4/idle/idle1.png</file>
+        <file>images/Eroul4/idle/idle2.png</file>
+        <file>images/Eroul4/idle/idle3.png</file>
+
+        <!-- RUN -->
+        <file>images/Eroul4/run/run0.png</file>
+        <file>images/Eroul4/run/run1.png</file>
+        <file>images/Eroul4/run/run2.png</file>
+        <file>images/Eroul4/run/run3.png</file>
+
+        <!-- ATTACK -->
+        <file>images/Eroul4/attack/attack0.png</file>
+        <file>images/Eroul4/attack/attack1.png</file>
+        <file>images/Eroul4/attack/attack2.png</file>
+        <file>images/Eroul4/attack/attack3.png</file>
+
+        <!-- BLOCK -->
+        <file>images/Eroul4/block/block0.png</file>
+        <file>images/Eroul4/block/block1.png</file>
+        <!-- proiectile-->
+
+    </qresource>
+</RCC>
