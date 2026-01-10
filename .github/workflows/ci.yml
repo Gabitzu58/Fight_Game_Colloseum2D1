@@ -9,20 +9,21 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-    - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-    - name: Install Qt and dependencies
-     run: |
-      sudo apt update
-      sudo apt install -y \
-      qt6-base-dev \
-      qt6-multimedia-dev \
-      libgl1-mesa-dev \
-      libglu1-mesa-dev \
-      cmake \
-      ninja-build
-    - name: Configure CMake
-      run: cmake -S . -B build -G Ninja
+      - name: Install Qt and dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y \
+            qt6-base-dev \
+            qt6-multimedia-dev \
+            libgl1-mesa-dev \
+            libglu1-mesa-dev \
+            cmake \
+            ninja-build
 
-    - name: Build
-      run: cmake --build build
+      - name: Configure CMake
+        run: cmake -S . -B build -G Ninja
+
+      - name: Build
+        run: cmake --build build
