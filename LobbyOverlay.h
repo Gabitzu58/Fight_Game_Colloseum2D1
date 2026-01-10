@@ -7,7 +7,7 @@
 #include <QPixmap>
 #include <memory>
 
-#include "Gladiator.h"
+#include "gladiator.h"
 
 class LobbyOverlay : public QWidget
 {
@@ -59,3 +59,4 @@ private:
     bool p2Selected = false;
 
 };
+
