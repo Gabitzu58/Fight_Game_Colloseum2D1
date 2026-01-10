@@ -3,7 +3,7 @@
 #include <QWidget>
 #include <QStackedWidget>
 
-#include "MenuGame.h"
+#include "menugame.h"
 #include "LobbyOverlay.h"
 #include "SettingsOverlay.h"
 #include "Arena.h"
@@ -26,3 +26,4 @@ private:
     SettingsOverlay* settings = nullptr;
     Arena* arena = nullptr;
 };
+
