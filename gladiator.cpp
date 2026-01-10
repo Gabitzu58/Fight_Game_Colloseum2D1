@@ -1,4 +1,4 @@
-#include "Gladiator.h"
+#include "gladiator.h"
 #include <QTransform>
 
 /* ================= CTOR ================= */
@@ -428,4 +428,5 @@ std::unique_ptr<Character> Gladiator::clone() const
     Q_ASSERT_X(false, "Gladiator::clone",
                "clone() called on base Gladiator");
     return nullptr;
+
 }
