@@ -8,7 +8,7 @@
 #include "Projectile.h"
 #include <vector>
 
-#include "Gladiator.h"
+#include "gladiator.h"
 
 class Arena : public QWidget
 {
@@ -82,3 +82,4 @@ private:
     Gladiator* player1 = nullptr;
     Gladiator* player2 = nullptr;
 };
+
