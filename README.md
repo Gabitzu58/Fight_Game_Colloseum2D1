@@ -46,6 +46,7 @@ detectarea erorilor care apar doar pe Linux (ex: case-sensitive includes)
 ⚠️ Probleme cunoscute
 
 Configuratia Qt + Clion + CMake trebuie instalata complet (Widgets + Multimedia + OpenGL)
+
  Gameplay
  
 https://github.com/user-attachments/assets/32afc930-5266-4cb0-8cdf-a6f8abfbede4
