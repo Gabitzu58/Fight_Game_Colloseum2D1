@@ -50,4 +50,6 @@ Configuratia Qt + Clion + CMake trebuie instalata complet (Widgets + Multimedia 
  
 https://github.com/user-attachments/assets/32afc930-5266-4cb0-8cdf-a6f8abfbede4
 
-
+Resources:
+ Tot playliste-ul https://youtu.be/EkjaiDsiM-Q?si=a5WeY6LYFzqqz5iM
+ Ajutat de ChatGPT pentru unele lucruri
