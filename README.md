@@ -35,7 +35,11 @@ GitHub Actions (CI – Linux)
 
 Proiectul folosește GitHub Actions pentru:
 
-build automat pe Ubuntu 22.04
+build automat pe
+
+https://github.com/user-attachments/assets/a018d63a-5702-4763-8f93-1c898623dae5
+
+ Ubuntu 22.04
 
 verificarea compatibilității cross-platform
 
@@ -44,3 +48,8 @@ detectarea erorilor care apar doar pe Linux (ex: case-sensitive includes)
 ⚠️ Probleme cunoscute
 
 Configuratia Qt + Clion + CMake trebuie instalata complet (Widgets + Multimedia + OpenGL)
+ Gameplay
+ 
+https://github.com/user-attachments/assets/32afc930-5266-4cb0-8cdf-a6f8abfbede4
+
+
