@@ -37,8 +37,6 @@ Proiectul folosește GitHub Actions pentru:
 
 build automat pe
 
-https://github.com/user-attachments/assets/a018d63a-5702-4763-8f93-1c898623dae5
-
  Ubuntu 22.04
 
 verificarea compatibilității cross-platform
