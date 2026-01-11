@@ -1,20 +1,46 @@
-Joc Gladiatori este un joc 2D dezvoltat în C++ folosind Qt 6, în care jucătorul controlează gladiatori cu abilități diferite și luptă într-o arenă. Jocul include interfețe grafice, sunet, meniuri și mai multe tipuri de personaje.
+🎮 Descriere joc
 
-Proiectul este realizat ca aplicație desktop și folosește CMake pentru build și CLion ca IDE principal.
+Fight Game – Colosseum 2D este un joc de tip arena în care jucătorul:
 
-Tehnologii folosite
+alege un personaj (gladiator, magician, războinic etc.)
+
+luptă într-o arenă 2D
+
+folosește atacuri, proiectile și sunete
+
+interacționează cu un meniu grafic (Qt Widgets)
+
+Jocul pune accent pe:
+
+structură OOP
+
+moștenire și polimorfism
+
+design modular
+
+interfață grafică cu Qt
+
+🛠️ Tehnologii folosite
 
 C++17
 
-Qt 6 (Widgets, Gui, Multimedia)
+Qt 6 (Widgets, Multimedia)
 
-CMake ≥ 3.16
+CMake
 
-MinGW (Windows)
-📌 Note importante
+Ninja / Make
 
-Folderele cmake-build-* nu sunt urcate pe GitHub, deoarece este prea mare + 300 MB
+GitHub Actions (CI – Linux)
+🤖 Continuous Integration (CI)
 
-Qt trebuie să fie aceeași variantă MinGW ca și compilerul
+Proiectul folosește GitHub Actions pentru:
 
-Proiectul este orientat pe OOP și design curat
+build automat pe Ubuntu 22.04
+
+verificarea compatibilității cross-platform
+
+detectarea erorilor care apar doar pe Linux (ex: case-sensitive includes)
+
+⚠️ Probleme cunoscute
+
+Configuratia Qt + Clion + CMake trebuie instalata complet (Widgets + Multimedia + OpenGL)
